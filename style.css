@@ -103,10 +103,10 @@ progress::-moz-progress-bar {
     color: #002B78;
     background: #efefef;
 }
-iframe, audio {
+embed, audio {
     display: block;
     margin: 0 auto;
-    border: 5px solid #002B78;
+    border: 0px;
 }
 hr {
     border: 0;

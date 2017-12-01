@@ -11,14 +11,14 @@
 
 	<body>
 		<!--header-->
-		<div id="header" class="section">
+		<header id="header" class="section">
 			<img src="https://i.imgur.com/AcCN0H5.jpg" alt="Oh, it wasn't even me in that pic, it was my cat, no worries" class="img_circ">
 			<p>Hi, I'm Kate!</p>
-		</div>
+		</header>
 		<!--/header-->
 		
 		<!--intro-->
-		<div id="intro" class="section">
+		<section id="intro" class="section">
 			<h1><span>Let's meet!</span></h1>
 			<p>
 				Hey! As you've probably already noticed, my name is <strong>Kate</strong>. This blog is a <em>complete humbug</em>,
@@ -29,11 +29,11 @@
 				dignissim et odio. Praesent ornare egestas nibh ac hendrerit. Sed consequat libero vitae quam accumsan, a hendrerit."</p><br>
 				That was some long quote, sorry about that!
 			</p>
-		</div>		
+		</section>		
 		<!--/intro-->
 
 		<!--schedule-->
-		<div class="section">
+		<section class="section">
 		<h1><span>My awesome pretext Schedule, great for trying out tables</span></h1>
 		<!--table content starts here, if I'd ever wondered...-->
 		<table>		
@@ -130,12 +130,12 @@
 			<p align="center">
 			<br> Oh, yes, I might've lied a teensy bit, it's not going to be all Lorem Ipsum over and over again. I know, <em>that</em> would be boring!
 			</p>
-		</div>
+		</section>
 		<!--/schedule-->
 		
  
         <!-- My Skills section start -->
-        <div class="section">
+        <section class="section">
             <h1><span>My Skills</span></h1>
             <ul>
                 <li>HTML <br>
@@ -148,20 +148,21 @@
                     <progress min="0" max="100" value="5"></progress>
                 </li>
             </ul>
-        </div>
+        </section>
         <!-- My Skills section end -->
         
         
          <!-- Media section start -->
-        <div class="section">
+        <section class="section">
             <h1><span>My Media</span></h1>
             <p align="center">I feel like that quite often. It's normal, you just have to have faith and persevere!</p>
-            <iframe height="150" width="300" src="https://www.youtube.com/embed/rhd7jp4mtH4" allowfullscreen frameborder="0"></iframe>
-        </div>
+            <!-- <iframe height="150" width="300" src="https://www.youtube.com/embed/rhd7jp4mtH4" allowfullscreen frameborder="0"></iframe> -->
+			<embed height="200" width="400" src="https://www.youtube.com/embed/rhd7jp4mtH4" allowFullScreen="true"></embed> <!--fullscreen doesn't work, find out how to make it possible asap-->
+        </section>
         <!-- Media section end -->
         
         <!-- Form section start -->
-       <div class="section">
+       <section class="section">
             <h1><span>Contact Me</span></h1>
             
             <svg class="face" height="100" width="100">
@@ -179,13 +180,13 @@
                 <textarea name="message" placeholder="Message (psssst... this won't work. Yet. Stay tuned!)" required ></textarea>
                 <input type="submit" value="SEND" class="submit" />
             </form>
-        </div>
+        </section>
         <!-- Form section end -->
         
         <!-- Contacts section start -->
-        <div class="section" id="contacts">
+        <section class="section" id="contacts">
             <h1><span>Follow Me</span></h1>
-            <div>
+            <article>
                 <a href="https://www.sololearn.com/Profile/3231496" target="_blank">
                     <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
                 </a>
@@ -199,13 +200,18 @@
 			-->
 							
 				
-            </div>
-        </div>
+            </article>
+        </section>
         <!-- Contacts section end -->
         
-        <div class="copyright">
-            &copy; 2017 Kate J. M. All rights reserved.
-        </div>
+        <footer class="copyright">
+			<details>
+				<summary>
+				&copy; 2017
+				</summary>
+				by: Kate J. M. All rights reserved.
+			</details>
+        </footer>
 
 	</body>
 
